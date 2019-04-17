@@ -2,7 +2,7 @@
   "id": "default-field-value",
   "name": "Default value for a field",
   "srcdoc": "extension.html",
-  "fieldTypes": ["Symbol"],
+  "fieldTypes": ["Boolean"],
   "parameters": {
     "instance": [
       {
@@ -10,7 +10,7 @@
         "name": "Default boolean",
         "description": "Set which parameter is default",
         "type": "Enum",
-        "options": [false, true],
+        "options": [{true: true}, {false: false}],
         "labels": {"empty": "Choose a value"},
         "required": false
       }
