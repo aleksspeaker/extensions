@@ -10,7 +10,7 @@
         "name": "Default boolean",
         "description": "Set which parameter is default",
         "type": "Enum",
-        "options": [{"true": true}, {"false": false}],
+        "options": [{"#0000FF": "blue"}, {"#FFFF00": "yellow"}, {"#FF0000": "red"}],,
         "labels": {"empty": "Choose a value"},
         "required": false
       }
