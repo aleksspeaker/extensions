@@ -6,13 +6,13 @@
   "parameters": {
     "instance": [
       {
-        "id": "defaultColor",
-        "name": "Default color",
-        "description": "Set which color is the default color",
+        "id": "defaultBoolean",
+        "name": "Default boolean",
+        "description": "Set which parameter is default",
         "type": "Enum",
-        "options": [{"#0000FF": "blue"}, {"#FFFF00": "yellow"}, {"#FF0000": "red"}],
-        "labels": {"empty": "Choose a color"},
-        "required": true
+        "options": [false, true],
+        "labels": {"empty": "Choose a value"},
+        "required": false
       }
     ]
   }
